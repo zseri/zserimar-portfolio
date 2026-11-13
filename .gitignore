@@ -1,0 +1,31 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+
+# macOS files
+.DS_Store
+
+# Prisma generated files
+server/generated/
+
+
+# Prisma-generated AI assistant skills
+server/.agents/
+server/.claude/
+server/.windsurf/
+server/skills-lock.json
